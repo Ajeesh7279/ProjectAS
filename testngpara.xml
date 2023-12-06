@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <parameter name = "userName" value="Ajeesh7279"></parameter>
+   <parameter name = "userPass" value="87540861"></parameter>
+      <parameter name = "dateIn" value="17/10/2021"></parameter>
+    <parameter name = "dateout" value="25/10/2021"></parameter>
+  <classes>
+      <class name="org.adactin.Paramet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

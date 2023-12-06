@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name = "userName" value="Ajeesh7279"></parameter>
+   <parameter name = "userPass" value="87540861"></parameter>
+   <parameter name = "dateIn" value="17/10/2021"></parameter>
+    <parameter name = "dateout" value="25/10/2021"></parameter>
+     <parameter name = "firstName" value="Ajeesh"></parameter>
+     <parameter name = "lastname" value="AS"></parameter>
+
+     <parameter name = "address" value="Ajeesh,Mallencode"></parameter>
+     <parameter name = "cardNo" value="9876543210987654"></parameter>
+      <parameter name = "cvv" value="987"></parameter>
+       
+    <classes>
+      <class name="org.adactin.AdactinHotelsParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
